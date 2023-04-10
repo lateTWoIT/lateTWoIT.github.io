@@ -41,7 +41,8 @@ table {
 html, body {
   width: 100%;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
+  vertical-align:top;  
 }
 
 body {
@@ -62,6 +63,14 @@ body {
   position: absolute;
   left: 0;
   top: 50%;
+  padding: 0 10px;
+  width: 100%;
+  text-align: center;
+}
+#intros {
+  position: absolute;
+  left: 0;
+  top: 25%;
   padding: 0 10px;
   width: 100%;
   text-align: center;
