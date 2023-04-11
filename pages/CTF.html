@@ -21,70 +21,9 @@
         <div class="container">
           <h2>CTF Work</h2>
           <br>
-          <p class="title">DamnCTF</p>
-          <br>
-          <p class="title">Challenge: de-compressed</p>
-            <br><br>
-            <p style="background-color: darkcyan; text-align: center;">
-            Files: (https://github.com/lateTWoIT/DamCTFWriteUP/tree/main/de-compressed)
-            <br>
-            Details:
-            <br>                  
-            misc/de-compressed
-            Perchik
-            111 solves / 368 points
-            <br>
+            <p style="color: darkcyan; text-align: center;">
+            <a href="https://github.com/lateTWoIT/DamCTFWriteUP#readme">DamCTF/de-compressed</a>
             </p>
-            __________________________________________________________________________________________________________________________________________
-            <br><br>
-            <br>
-            <p style="background-color: darkcyan; text-align: center;">
-            As an elite cyber security expert, you've been tasked with uncovering the secrets hidden within a message intercepted from a notorious spy.
-            <br>
-            We suspect there may be more to this message than meets the eye. Can you use your skills in steganography to uncover whatever else might be hiding?
-            <br>
-            The fate of national security is in your hands.
-            <br>
-            </p>
-            __________________________________________________________________________________________________________________________________________
-            <br><br>
-            <br>
-            <p style="background-color: darkcyan; text-align: center;">
-            Synopsis:
-            <br><br><br>  
-            Ran strings on the zip file and initially struggled with extracting the data. Attempted multiple unzip applications. 
-            <br>
-            strings message.zip
-            <br><br> 
-            [jVn6bREADME.txt=46X6i(MT>P|9c**secret.txt**&lt;q9K^o4U#q@}Zpdlt[jVn6bREADME.txtPK
-            <br><br>
-            Now to extract the secret.txt
-            <br><br>
-            Ultimately running a repair with WinRAR extracted the "Secret.txt" file that was present during the strings command.
-            <br><br>
-            cat Secret.txt
-            <br><br>
-            I ‌‌‌‌‍‬‬‍read‌‌‌‌‍﻿‌﻿ ‌‌‌‌‍﻿‌‬between ‌‌‌‌‍‬‍‍‌‌‌‌‍‬‍﻿the‌‌‌‌‍‬‌‍‌‌‌‌‍﻿‌‬ lines, my ‌‌‌‌‍‬‍‌vision'‌‌‌‌‌‬‌‌s ‌‌‌‌‍﻿‍‌‌‌‌‌‍‬‬‌‌‌‌‌‍‬‍‍clear‌‌‌‌‌‬‌‌ and‌‌‌‌‍‍‌‬ keen‌‌‌‌‍‌‍‍
-            I‌‌‌‌‍‌‌‍ ‌‌‌‌‍‌‍‌see ‌‌‌‌‍‌﻿‍the hidden‌‌‌‌‍‌‍‍ ‌‌‌‌‌‬﻿‌meanings, ‌‌‌‌‌‬‌‌the truths ‌‌‌‌‍‌‬‍that‌‌‌‌‌‬‌‌‌‌‌‌‍‬‌‍ ‌‌‌‌‍‬﻿‍are unseen
-            ‌‌‌‌‌‬‌‌I don'‌‌‌‌‍﻿‌﻿t ‌‌‌‌‍﻿‍‌‌‌‌‌‍‬‬‍‌‌‌‌‍‬﻿‌just‌‌‌‌‍‬﻿‌‌‌‌‌‌‬‌‌‌‌‌‌‍‬﻿﻿‌‌‌‌‍‬﻿‬‌‌‌‌‌‬‌‌ take ‌‌‌‌‍﻿‍‌things ‌‌‌‌‍‬‬‌at ‌‌‌‌‍‬‍‍face value,‌‌‌‌‌‬‌‌‌‌‌‌‍﻿‍‌ ‌‌‌‌‍‬‍‍that‌‌‌‌‍‬‌‍‌‌‌‌‍‬﻿‍‌‌‌‌‌‬﻿‬'s not‌‌‌‌‌‌‬‬ my‌‌‌‌‍‬‍‌‌‌‌‌‍‬‌‍ ‌‌‌‌‍‬﻿‍style
-            I ‌‌‌‌‍﻿‬﻿‌‌‌‌‍﻿‍‌dig‌‌‌‌‌﻿‌‍‌‌‌‌‍‬﻿‍ ‌‌‌‌‌﻿‌﻿deep and I uncover‌‌‌‌‍‍﻿﻿‌‌‌‌‍﻿‍‌, the ‌‌‌‌‌﻿‌‌hidden‌‌‌‌‍‍﻿﻿ ‌‌‌‌‍‬‬﻿‌‌‌‌‍‬‬‍treasures‌‌‌‌‍‬‌﻿ ‌‌‌‌‍‬‬﻿that‌‌‌‌‍‍﻿﻿‌‌‌‌‍‬‌‬‌‌‌‌‌﻿‍‌‌‌‌‌‍‬‌﻿ ‌‌‌‌‍‬‬﻿‌‌‌‌‍‍﻿﻿are‌‌‌‌‌﻿‍‌ compiled‌‌‌‌‍
-            <br>
-            <br>
-            Used the following website to extract the message
-            <br>
-            <br>
-            https://330k.github.io/misc_tools/unicode_steganography.html
-            
-            </p>
-            __________________________________________________________________________________________________________________________________________
-            <br><br><br>
-            <p style="background-color: darkcyan; text-align: center;">
-            ## Flag:
-            <br><br>
-            Disregard the README, I am still on the team.
-            <br><br>
-            dam{t1m3_t0_kick_b4ck_4nd_r3l4x}
-            </p><br><br><br>
   </div>
 </div>
 
